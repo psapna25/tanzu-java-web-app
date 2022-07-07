@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Greetings from Spring Boot + Tanzu! welcome  +  GIT location + Tkgm-AWS + Relocate + GIT + Test";
+		return "GIT location + Tkgm-Azure + GIT + Test + Crosscluster";
 	}
 
 }
