@@ -17,6 +17,6 @@ k8s_custom_deploy(
       sync('./target/classes', '/workspace/BOOT-INF/classes')
     ]
 )
-allow_k8s_contexts('sapna-worker-3-tkg-aws-4-admin@sapna-worker-3-tkg-aws-4')
+allow_k8s_contexts('scantest-worker-4-admin@scantest-worker-4')
 k8s_resource('tanzu-java-web-app', port_forwards=["8080:8080"],
             extra_pod_selectors=[{'serving.knative.dev/service': 'tanzu-java-web-app'}])
