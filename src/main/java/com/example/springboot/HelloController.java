@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "GIT location + Tkgm-Azure + 121";
+		return "GIT location Crosscluster";
 	}
 
 }
