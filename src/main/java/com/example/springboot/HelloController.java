@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "GIT location Crosscluster Git source 1.3.0-build.23 fedora kvm";
+		return "GIT location Crosscluster Git source 1.3.0-build.23 openshift";
 	}
 
 }
