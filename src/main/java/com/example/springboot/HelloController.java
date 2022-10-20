@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Multi-Cluster Iterate";
+		return "Multi-Cluster Iterate + OS-Baremetal";
 	}
 
 }
