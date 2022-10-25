@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Multi-Cluster test-scan supply chain + OS-Baremetal";
+		return "Snyk TC";
 	}
 
 }
