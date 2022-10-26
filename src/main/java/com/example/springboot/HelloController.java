@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "GitOps TC update";
+		return "GitOps TC update test";
 	}
 
 }
