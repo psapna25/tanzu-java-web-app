@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Custom CA TC update test";
+		return "1.4.0-build14";
 	}
 
 }
